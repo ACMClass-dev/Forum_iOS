@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		550732EC233202030088FFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550732EB233202030088FFBB /* AppDelegate.swift */; };
-		550732EE233202030088FFBB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550732ED233202030088FFBB /* FirstViewController.swift */; };
-		550732F0233202030088FFBB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550732EF233202030088FFBB /* SecondViewController.swift */; };
 		550732F3233202030088FFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550732F1233202030088FFBB /* Main.storyboard */; };
 		550732F5233202040088FFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550732F4233202040088FFBB /* Assets.xcassets */; };
 		550732F8233202040088FFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550732F6233202040088FFBB /* LaunchScreen.storyboard */; };
 		55073303233202040088FFBB /* Forum_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55073302233202040088FFBB /* Forum_iOSTests.swift */; };
 		5507330E233202040088FFBB /* Forum_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507330D233202040088FFBB /* Forum_iOSUITests.swift */; };
+		5507331C233202C10088FFBB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507331B233202C10088FFBB /* SettingViewController.swift */; };
+		5507331E233205BD0088FFBB /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5507331D233205BD0088FFBB /* DetailTableViewController.swift */; };
+		5520FB9B2337455300D922E7 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5520FB9A2337455300D922E7 /* ForumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* Begin PBXFileReference section */
 		550732E8233202030088FFBB /* Forum_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forum_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		550732EB233202030088FFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		550732ED233202030088FFBB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		550732EF233202030088FFBB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		550732F2233202030088FFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		550732F4233202040088FFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		550732F7233202040088FFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		55073309233202040088FFBB /* Forum_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Forum_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5507330D233202040088FFBB /* Forum_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forum_iOSUITests.swift; sourceTree = "<group>"; };
 		5507330F233202040088FFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5507331B233202C10088FFBB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		5507331D233205BD0088FFBB /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		5520FB9A2337455300D922E7 /* ForumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				550732EB233202030088FFBB /* AppDelegate.swift */,
-				550732ED233202030088FFBB /* FirstViewController.swift */,
-				550732EF233202030088FFBB /* SecondViewController.swift */,
+				5520FB9A2337455300D922E7 /* ForumViewController.swift */,
+				5507331B233202C10088FFBB /* SettingViewController.swift */,
+				5507331D233205BD0088FFBB /* DetailTableViewController.swift */,
 				550732F1233202030088FFBB /* Main.storyboard */,
 				550732F4233202040088FFBB /* Assets.xcassets */,
 				550732F6233202040088FFBB /* LaunchScreen.storyboard */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				550732F0233202030088FFBB /* SecondViewController.swift in Sources */,
+				5520FB9B2337455300D922E7 /* ForumViewController.swift in Sources */,
+				5507331E233205BD0088FFBB /* DetailTableViewController.swift in Sources */,
+				5507331C233202C10088FFBB /* SettingViewController.swift in Sources */,
 				550732EC233202030088FFBB /* AppDelegate.swift in Sources */,
-				550732EE233202030088FFBB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
